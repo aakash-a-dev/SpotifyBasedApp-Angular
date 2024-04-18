@@ -5,7 +5,8 @@ import { SpotifyLoginComponent } from './MyComponents/spotify-login/spotify-logi
 const routes: Routes = [
   {
     path: '',
-    component: SpotifyLoginComponent
+    component: SpotifyLoginComponent,
+    title: 'Login'
   }, // Route for callback
   { path: '**', redirectTo: '' } // Handle other routes
 ];
